@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
-<!--
+<!--/**
     @author _ Pathum_Kaleesha
     @created - 11/26/2021 - 11:19 AM
     @since - v0.1.0 - CSS
--->
+**/-->
 
 <html lang="en">
 <head>
@@ -31,63 +31,83 @@
               font-size: 40px;
           }*/
         /*Attribute selector (Attribute element)*/
-       /* [id] {
-            color: red;
-        }*/
+        /* [id] {
+             color: red;
+         }*/
 
         /*Attribute selector (Attribute element) */
-       /* [class ="a"]{
-            color: red;
-        }*/
+        /* [class ="a"]{
+             color: red;
+         }*/
         /*grouping selectors*/
-      /*  h1, h2 {
-            color: orange;
+        /*  h1, h2 {
+              color: orange;
 
-        }
-        .selectorPara,#my-header{
-            background-color: chartreuse;
-        }*/
+          }
+          .selectorPara,#my-header{
+              background-color: chartreuse;
+          }*/
         /*Psudo selector*/
         /*Psudo classes*/
-      /*  li:first-child{
-            color: red;
-        }
-        li:last-child{
-            color: green;
-        }
-        li:nth-child(3){
-            color: aqua;
-        }
-*/
-       /* h1:hover,h2:hover{
-            color: red;
-        }*/
-        h1.a#my-header{
-            color: red;
-        }
-        p::first-letter{
+        /*  li:first-child{
+              color: red;
+          }
+          li:last-child{
+              color: green;
+          }
+          li:nth-child(3){
+              color: aqua;
+          }
+  */
+        /* h1:hover,h2:hover{
+             color: red;
+         }*/
+        /* h1.a#my-header{
+             color: red;
+         }*/
+        /*p::first-letter {
             font-size: 45px;
             color: red;
         }
-        p::selection{
+
+        p::selection {
             background-color: red;
             color: white;
         }
-        p::first-line{
+
+        p::first-line {
             color: blue;
         }
-        li::marker{
+
+        li::marker {
             color: red;
         }
-        li{
+
+        li {
             list-style: lower-roman;
 
-        }
-        /*CSS Combinators*/
-        header h1{
+        }*/
+
+        /*CSS Combinators - Use to combine different css selectors and select*/
+        /*Descendant Combinator*/
+        /*header h1{
             color: white;
             background-color: red;
-        }
+        }*/
+        /*child combinator -(direct child) > -->in*/
+        /*  header > h1 {
+              color: green;
+          }
+  */
+        /*Adjacent combination -- set style for near element*/
+        /*h1 + p {
+            color: green;
+        }*/
+        /*General sibling combinator - select all paragraphs bellow*/
+        /*h1 ~ p{
+            color: red;
+        }*/
+        /**/
 
     </style>
     <!--out source file-->
@@ -98,6 +118,7 @@
 <header><!--apply css style-->
     <!--Inline style-->
     <h1 class="a" id="my-header">Hello CSS</h1>
+    <h1 class="a" id="my-header2">Hello CSS</h1>
     <p class="a">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi asperiores cum debitis
         dicta enim est illum
         iste mollitia, nemo nostrum numquam odit officia provident, quasi quidem reiciendis sint, tempora.</p>
