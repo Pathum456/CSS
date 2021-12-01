@@ -7,9 +7,100 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>CSS Traversing</title>
+    <style>
+        body > main > section > article > section > div > ul > ol > li:nth-child(3) {
+            color: red;
+            font-size: 40px;
+        }
+
+    </style>
 </head>
 <body>
-
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet consectetur dolores fugiat itaque
+    molestiae placeat possimus quam quisquam quod, similique totam! Assumenda at culpa eum nobis, officiis similique
+    voluptates.</p>
+<header id="header">
+    <h1>LOGO</h1>
+    <ul>
+        <li>Home</li>
+        <li>About US</li>
+        <li>CMJD</li>
+        <li>ABSD</li>
+    </ul>
+</header>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam, atque esse est facilis in laboriosam nobis
+    nulla pariatur, quae quaerat quam quis quisquam ratione saepe soluta unde veniam voluptatum?</p>
+<main>
+    <section id`main-section>
+        <ul>
+            <li>Home</li>
+            <li>About US</li>
+            <li>CMJD</li>
+            <li>ABSD</li>
+        </ul>
+    </section>
+    <section>
+        <article>
+            <section>
+                <div></div>
+                <div></div>
+                <div>
+                    <ul>
+                        <li>Home</li>
+                        <li>About US</li>
+                        <li>CMJD</li>
+                        <ol>
+                            <li>CMJD</li>
+                            <li>ABSD</li>
+                            <li>GDSE</li><!--select this and change color-->
+                            <li>RWAD</li>
+                        </ol>
+                        <li>IJSE
+                        </li>
+                    </ul>
+                </div>
+                <div></div>
+                <div></div>
+            </section>
+        </article>
+        <ul>
+            <li>Home</li>
+            <li>About US</li>
+            <li>CMJD</li>
+            <li>ABSD</li>
+        </ul>
+    </section>
+</main>
+<footer>
+    <section>
+        <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet, blanditiis deserunt dolor dolorem
+                explicabo facere itaque laborum magni nostrum possimus, quas qui quidem quos similique ullam veniam? Ea,
+                est?</p>
+        </section>
+        <section>
+            <div></div>
+            <div></div>
+            <div>
+                <ul>
+                    <li>Home</li>
+                    <li>About US</li>
+                    <li>CMJD</li>
+                    <ol>
+                        <li>CMJD</li>
+                        <li>ABSD</li>
+                        <li>GDSE</li>
+                        <li>RWAD</li>
+                    </ol>
+                    <li>IJSE
+                    </li>
+                </ul>
+            </div>
+            <div></div>
+            <div></div>
+        </section>
+    </section>
+</footer>
 </body>
 </html>
