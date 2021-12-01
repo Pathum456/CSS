@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<!--
+    @author _ Pathum_Kaleesha
+    @created - 11/26/2021 - 11:19 AM
+    @since - v0.1.0 - CSS
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning CSS</title>
+    <meta content="width=device-width initial-scale=1" name="viewport">
+    <!--apply style meta data-->
+    <style>
+        /*1)universal selector*/
+        /* *{
+             color: aqua;
+         }*/
+        /*type selector*/
+        /* h1 {
+             border: 3px solid red;
+         }*/
+        /*ID selector*/
+        /* #my-header{
+             color: red;
+         }*/
+        /*class selector*/
+        /*  .selectorPara{
+              color: green;
+              font-size: 40px;
+          }*/
+        /*Attribute selector (Attribute element)*/
+       /* [id] {
+            color: red;
+        }*/
+
+        /*Attribute selector (Attribute element) */
+       /* [class ="a"]{
+            color: red;
+        }*/
+        /*grouping selectors*/
+      /*  h1, h2 {
+            color: orange;
+
+        }
+        .selectorPara,#my-header{
+            background-color: chartreuse;
+        }*/
+        /*Psudo selector*/
+        /*Psudo classes*/
+      /*  li:first-child{
+            color: red;
+        }
+        li:last-child{
+            color: green;
+        }
+        li:nth-child(3){
+            color: aqua;
+        }
+*/
+       /* h1:hover,h2:hover{
+            color: red;
+        }*/
+        h1.a#my-header{
+            color: red;
+        }
+        p::first-letter{
+            font-size: 45px;
+            color: red;
+        }
+        p::selection{
+            background-color: red;
+            color: white;
+        }
+        p::first-line{
+            color: blue;
+        }
+        li::marker{
+            color: red;
+        }
+        li{
+            list-style: lower-roman;
+
+        }
+        /*CSS Combinators*/
+        header h1{
+            color: white;
+            background-color: red;
+        }
+
+    </style>
+    <!--out source file-->
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/images/download.jfif" rel="icon">
+</head>
+<body>
+<header><!--apply css style-->
+    <!--Inline style-->
+    <h1 class="a" id="my-header">Hello CSS</h1>
+    <p class="a">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi asperiores cum debitis
+        dicta enim est illum
+        iste mollitia, nemo nostrum numquam odit officia provident, quasi quidem reiciendis sint, tempora.</p>
+    <p class="selectorPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi asperiores cum debitis
+        dicta enim est illum
+        iste mollitia, nemo nostrum numquam odit officia provident, quasi quidem reiciendis sint, tempora.</p>
+    <p class="selectorPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi asperiores cum debitis
+        dicta enim est illum
+        iste mollitia, nemo nostrum numquam odit officia provident, quasi quidem reiciendis sint, tempora.</p>
+    <p class="selectorPara" id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi asperiores cum
+        debitis
+        dicta enim est illum
+        iste mollitia, nemo nostrum numquam odit officia provident, quasi quidem reiciendis sint, tempora.</p>
+    <h2>hello there..</h2>
+    <ul id="list">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+    </ul>
+</header>
+</body>
+</html>
