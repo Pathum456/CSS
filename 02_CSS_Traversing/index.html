@@ -9,6 +9,10 @@
     <meta charset="UTF-8">
     <title>CSS Traversing</title>
     <style>
+        body#bd > main > section > article > section > div > ul > ol > li:nth-child(3) {
+            color: red;
+            font-size: 40px;
+        }
         body > main > section > article > section > div > ul > ol > li:nth-child(3) {
             color: red;
             font-size: 40px;
@@ -16,7 +20,7 @@
 
     </style>
 </head>
-<body>
+<body id="bd">
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet consectetur dolores fugiat itaque
     molestiae placeat possimus quam quisquam quod, similique totam! Assumenda at culpa eum nobis, officiis similique
     voluptates.</p>
