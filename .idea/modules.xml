@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/../02_CSS_Traversing/02_CSS_Traversing.iml" filepath="$PROJECT_DIR$/../02_CSS_Traversing/02_CSS_Traversing.iml" />
       <module fileurl="file://$PROJECT_DIR$/../03_Cascade/03_Cascade.iml" filepath="$PROJECT_DIR$/../03_Cascade/03_Cascade.iml" />
       <module fileurl="file://$PROJECT_DIR$/../04_Box_Model/04_Box_Model.iml" filepath="$PROJECT_DIR$/../04_Box_Model/04_Box_Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../05_Messurement_Units/05_Messurement_Units.iml" filepath="$PROJECT_DIR$/../05_Messurement_Units/05_Messurement_Units.iml" />
       <module fileurl="file://$PROJECT_DIR$/../CSS.iml" filepath="$PROJECT_DIR$/../CSS.iml" />
     </modules>
   </component>

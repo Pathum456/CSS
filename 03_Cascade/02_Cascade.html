@@ -1,0 +1,66 @@
+<!--
+    @author _ Pathum_Kaleesha
+    @created - 12/3/2021 - 11:08 AM
+    @since - v0.1.0 - CSS
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cascade Case 3</title>
+    <style>
+        /*(10)*/
+        .title {
+            color: orange;
+        }
+
+        /*(100)*/
+        #mainHeader {
+            color: purple;
+        }
+
+        /*(100+10+100=210)*/
+        #body  .subSection #mainHeader {
+            color: red;
+        }
+
+        /*(100+10+100=210)*/
+        #body .subSection #mainHeader {
+            color: darkblue;
+        }
+
+        /*(1+1+1+1+1=5)*/
+        body > section > section > article > h1 {
+            color: aqua;
+        }
+
+        /*(1+100+1+100+1+10+1+100+10+100=425)*/
+        body#body > section#mainSection > section.subSection > article#mainArticle > h1.title#mainHeader {
+            color: deeppink;
+        }
+
+        /*(1+100+1+100+1+10+1+100+1+10+100=425)*/
+        body#body > section#mainSection > section.subSection > article#mainArticle > h1.title#mainHeader {
+            color: deepskyblue;
+        }
+
+        /*(1+1+100=102)*/
+        body h1#mainHeader {
+            color: blueviolet;
+        }
+
+        /*yellow(1000) ,deepskyblue(425) , deeppink(425) , darkblue(210) , red(210) , purple(100) , orange(10) , aqua(5)*/
+    </style>
+</head>
+<body id="body">
+<section id="mainSection">
+    <section class="subSection">
+        <article id="mainArticle">
+            <!--(1000)-->
+            <h1 class="title" id="mainHeader" style="color: yellow">Hello There.. Select ME</h1>
+        </article>
+    </section>
+</section>
+
+</body>
+</html>

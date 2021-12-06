@@ -1,0 +1,45 @@
+<!--
+    @author _ Pathum_Kaleesha
+    @created - 12/3/2021 - 8:32 AM
+    @since - v0.1.0 - CSS
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Cascade</title>
+  <style>
+    *{
+      color: aqua;
+    }
+    /*4*/
+    h1{
+      color: red;
+    }
+
+    /*2*/
+    #title{
+      color: green!important;
+    }
+    /*3*/
+    .header{
+      color: blue;
+    }
+    /*3*/
+    [id]{
+      color: deeppink!important;
+    }
+
+    /*3*/
+    :first-child{
+        color: darkorange!important;
+    }
+
+  </style>
+
+</head>
+<body>
+<!--1-->
+<h1 style="color: brown" class="header" id="title">what is Cascade in CSS...?</h1>
+</body>
+</html>
