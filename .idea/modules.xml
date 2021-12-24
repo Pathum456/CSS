@@ -3,11 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01_Basic.iml" filepath="$PROJECT_DIR$/01_Basic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02_CSS_Traversing/02_CSS_Traversing.iml" filepath="$PROJECT_DIR$/02_CSS_Traversing/02_CSS_Traversing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/03_Cascade/03_Cascade.iml" filepath="$PROJECT_DIR$/03_Cascade/03_Cascade.iml" />
-      <module fileurl="file://$PROJECT_DIR$/04_Box_Model/04_Box_Model.iml" filepath="$PROJECT_DIR$/04_Box_Model/04_Box_Model.iml" />
-      <module fileurl="file://$PROJECT_DIR$/05_Messurement_Units/05_Messurement_Units.iml" filepath="$PROJECT_DIR$/05_Messurement_Units/05_Messurement_Units.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../02_CSS_Traversing/02_CSS_Traversing.iml" filepath="$PROJECT_DIR$/../02_CSS_Traversing/02_CSS_Traversing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../03_Cascade/03_Cascade.iml" filepath="$PROJECT_DIR$/../03_Cascade/03_Cascade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../04_Box_Model/04_Box_Model.iml" filepath="$PROJECT_DIR$/../04_Box_Model/04_Box_Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../05_Messurement_Units/05_Messurement_Units.iml" filepath="$PROJECT_DIR$/../05_Messurement_Units/05_Messurement_Units.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_CSS_Positions.iml" filepath="$PROJECT_DIR$/06_CSS_Positions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_CSS_Positons.iml" filepath="$PROJECT_DIR$/06_CSS_Positons.iml" />
       <module fileurl="file://$PROJECT_DIR$/../CSS.iml" filepath="$PROJECT_DIR$/../CSS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSS_Posisions.iml" filepath="$PROJECT_DIR$/CSS_Posisions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Transition/Transition.iml" filepath="$PROJECT_DIR$/../Transition/Transition.iml" />
     </modules>
   </component>
 </project>
